@@ -1,1 +1,0 @@
-elements_strictly_greater_than_x.
