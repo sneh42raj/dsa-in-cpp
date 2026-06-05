@@ -5,7 +5,7 @@
 #include<sstream>
 #include<algorithm>
 using namespace std;
-
+//sorting is done lexographically
 int main(){
      vector<string> v = {"flower", "flow", "flight"};
      sort(v.begin(), v.end()) ;
