@@ -11,7 +11,7 @@ int main (){
     int ans = -1 ;
 
     while(lo<=hi){
-        int mid = (lo + (hi - lo)/2) ;
+        int mid = lo + (hi - lo)/2 ;
         if(arr[mid]==mid) lo = mid + 1 ;
         else {
             ans = mid;
